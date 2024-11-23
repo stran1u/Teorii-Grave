@@ -84,7 +84,7 @@ def main():
         print("\nGenerând o nouă teorie...")
         carte_infricosatoare.genereaza_teorie()
 
-        alegere = input("\nVrei să auzi o altă teorie? (da/Nu): ").lower()
+        alegere = input("\nVrei să auzi o altă teorie? (da/nu): ").lower()
         if alegere != 'da':
             print("Decizi că este mai bine să nu te uiți prea aproape. Poate că ignoranța este fericire.")
             break
